@@ -1,0 +1,51 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = "Tribe Cyber"
+theme = "hello-4s3ti"
+
+[params]
+    defaultTheme = "dark"
+    EnableThemeToggle = true
+    EnableSharingButtons = true
+    EnableGlobalLanguageMenu = true
+    backgroundEffects = true
+    showPosts = false
+
+    homeTitle = "Tribe Cyber"
+    homeSubtitle = "Unlocking the Future, One Byte at a Time"
+
+    logo1 = "/images/rankings.png"
+    logo2 = "/images/skills.png"
+    logo3 = "/images/networking.png"
+
+    ReadMoreText = true
+    fontAwesome = { KitURL = "https://kit.fontawesome.com/0ed5cec925.js" }
+    ShowReadingTime = false
+    LastModDisplay = true
+    logo = { logoText = "Tribe Cyber", logoCursorColor = "#ffffff" }
+    footer = { showVersion = true, socialIcons = true, author = true, trademark = true, copyright = true }
+
+    [params.author]
+        name = "Tribe Cyber"
+
+    [[params.social]]
+        name = "github"
+        url = "https://github.com/TribeCyber"
+
+[menu]
+    [[menu.main]]
+        identifier = "about"
+        name = "About"
+        url = "about"
+        weight = 2
+
+    [[menu.main]]
+        identifier = "posts"
+        name = "Posts"
+        url = "/posts"
+        weight = 1
+
+    [[menu.main]]
+        identifier = "tibe_ctf"
+        name = "TribeCTF"
+        url = "https://tribectf.github.io/TribeCTF-site/"
